@@ -95,7 +95,7 @@ let Equal = () => {
     document.getElementById("hasil").innerHTML = result;
     display = "";
   } catch (error) {
-    document.getElementById("hasil").innerHTML = "Masukkin yang bener dong";
+    document.getElementById("hasil").innerHTML = "Masukkan Angka Yang Benar";
     display = "";
   }
 };
