@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkulator</title>
+    <script src="https://kit.fontawesome.com/4888d10d78.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="whole-calculator">
+      <div class="calculator-board">
+        <h1 id="hasil">0</h1>
+        <hr />
+        <table>
+          <tr>
+            <th><button class="fungsi" onclick="clearing()">C</button></th>
+            <th><button class="fungsi" onclick="KurungKiri()">(</button></th>
+            <th><button class="fungsi" onclick="KurungKanan()">)</button></th>
+            <th>
+              <button class="fungsi" onclick="Divide()"><i class="fas fa-divide"></i></button>
+            </th>
+          </tr>
+          <tr>
+            <th><button onclick="numb7()">7</button></th>
+            <th><button onclick="numb8()">8</button></th>
+            <th><button onclick="numb9()">9</button></th>
+            <th>
+              <button class="fungsi" onclick="Times()"><i class="fas fa-times"></i></button>
+            </th>
+          </tr>
+          <tr>
+            <th><button onclick="numb4()">4</button></th>
+            <th><button onclick="numb5()">5</button></th>
+            <th><button onclick="numb6()">6</button></th>
+            <th>
+              <button class="fungsi" onclick="Min()"><i class="fas fa-minus"></i></button>
+            </th>
+          </tr>
+          <tr>
+            <th><button onclick="numb1()">1</button></th>
+            <th><button onclick="numb2()">2</button></th>
+            <th><button onclick="numb3()">3</button></th>
+            <th>
+              <button class="fungsi" onclick="Plus()"><i class="fas fa-plus"></i></button>
+            </th>
+          </tr>
+          <tr>
+            <th><button onclick="numb0()">0</button></th>
+            <th><button onclick="Coma()">,</button></th>
+            <th>
+              <button class="fungsi" onclick="Delete()"><i class="fas fa-backspace"></i></button>
+            </th>
+            <th>
+              <button class="fungsi" onclick="Equal()"><i class="fas fa-equals"></i></button>
+            </th>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
